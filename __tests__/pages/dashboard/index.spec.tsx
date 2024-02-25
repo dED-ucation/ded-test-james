@@ -4,6 +4,7 @@ import "@testing-library/jest-dom";
 import DashboardIndexPage from '@/pages/dashboard';
 
 
+// Test No 1 Start
 describe("Test home page", () => {
     it("ensure p.ded-total-investment is present and it contains an value higher than 1b", () => {
       render(<DashboardIndexPage />);
@@ -38,8 +39,9 @@ describe("Test home page", () => {
       }
     });
 });
+// Test No 1 ends
 
-
+// Test No 2 Start
 describe("Test Basic Navigation", () => {
 
     test("finds the link and clicks it", () => {
@@ -83,11 +85,11 @@ it("Ensure h2 has treaty", () => {
   
 });
 
+// Test No 2 ends
 
 
-
-
-describe("DashboardIndexPage", () => {
+// Test No 3 starts
+describe("Test University search", () => {
   it("allows the user to search for universities and select one", async () => {
     render(<DashboardIndexPage />);
 
@@ -138,3 +140,5 @@ describe("DashboardIndexPage", () => {
     );
   });
 });
+
+// Test No 3 ends

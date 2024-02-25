@@ -1,35 +1,19 @@
 # Next.js + Jest
 
-This example shows how to configure Jest to work with Next.js.
+## This project uses Jest with NextJs for testing
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+Following the instructions from the Readme file on the Main branch of this project, a next js application was created to mimic the expected behavior of the application. In doing so, this script has only one components under pages which is used for testing.
+As for the testing locate __tests___ folder and select the index file inside pages folder. This is where the entire script for testing is located.
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+The Testing is splitted into three faces
+1. Tes the home page
+2. Test basic navigation
+3. Test University search
 
-## Deploy your own
+All this tests are separated with a start and end comments on the index.spec.tsx file.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
 
-## How to Use
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
 
-In your terminal, run the following command:
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
