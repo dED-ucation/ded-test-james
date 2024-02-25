@@ -6,12 +6,13 @@ Following the instructions from the Readme file on the Main branch of this proje
 As for the testing locate __tests___ folder and select the index file inside pages folder. This is where the entire script for testing is located.
 
 The Testing is splitted into three faces
-1. Tes the home page
+1. Test the home page
 2. Test basic navigation
 3. Test University search
 
 All this tests are separated with a start and end comments on the index.spec.tsx file.
 
+### Component file is located under pages/dashboard/index (DashboardIndexPage)
 
 
 
